@@ -1,0 +1,23 @@
+{
+  "name": "waco",
+  "version": "1.0.0",
+  "description": "Water conservation",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debabratapatra/waco.git"
+  },
+  "author": "Debabrata Patra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debabratapatra/waco/issues"
+  },
+  "homepage": "https://github.com/debabratapatra/waco#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

@@ -97,16 +97,17 @@ function draw() {
         components[i].visible && components[i].draw(canvasManager.ctx);
     }
 }
-
+alert('hi');
 window.document.body.onload = function() {
-    createImageBitmap(plane.plane)
-    .then(function(bitmap) {
-        plane.bitMapPlane = bitmap;
+    // plane.bitMapPlane = bitmap;
         backCanvasManager.draw();
         draw();
-    }, function(reason) {
+    // createImageBitmap(plane.plane)
+    // .then(function(bitmap) {
+        
+    // }, function(reason) {
 
-        //Memory allocation issue
-        window.location.reload();
-    });
+    //     //Memory allocation issue
+    //     window.location.reload();
+    // });
 }

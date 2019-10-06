@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/debabratapatra/waco#readme",
   "dependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.11.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6",
+    "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.7.2"
   }
 }

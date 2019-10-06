@@ -1,5 +1,6 @@
 var path = require('path');
  var webpack = require('webpack');
+//  npm link webpack-cli // To fix webpack issue.
  module.exports = {
      mode: 'development',
      watch: true,

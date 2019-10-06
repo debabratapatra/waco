@@ -97,7 +97,7 @@ function draw() {
         components[i].visible && components[i].draw(canvasManager.ctx);
     }
 }
-alert('hi');
+alert('hi4');
 window.document.body.onload = function() {
     // plane.bitMapPlane = bitmap;
         backCanvasManager.draw();
